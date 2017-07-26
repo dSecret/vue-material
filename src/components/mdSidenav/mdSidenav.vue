@@ -4,7 +4,9 @@
       <slot></slot>
     </div>
 
-    <md-backdrop class="md-sidenav-backdrop" @close="close" ref="backdrop"></md-backdrop>
+    <md-backdrop class="md-sidenav-backdrop" @close="close"
+    onclick="document.getElementById('bood').style.overflowY='scroll';"
+    ref="backdrop"></md-backdrop>
   </div>
 </template>
 
